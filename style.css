@@ -139,10 +139,12 @@ nav a {
     background-color:#d09e60;
   }
 
+#Documentation{
     background-color: #d09e60;
     text-align: center;
     padding: 50px;
     color: white;
+}
 
   footer {
     background: #000;
