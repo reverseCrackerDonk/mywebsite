@@ -127,6 +127,11 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.generate')?.scrollIntoView({ behavior: 'smooth' });
     }
 
+        // Function to scroll to the documentation section
+    function scrollToDocumentation() {
+        document.querySelector('#Documentation')?.scrollIntoView({ behavior: 'smooth' });
+    }
+
     // Function to restore the original home page content
     function restoreHomePage() {
         mainElement.innerHTML = originalContent; // Restore full home content
@@ -153,6 +158,9 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (target.matches('[href="#recipes"]')) {
             e.preventDefault();
             scrollToGallery();
+      } else if (target.matches('[href="#"]')) {
+            e.preventDefault();
+            scrollToDocumentation();
         } else if (target.matches('[href="#home"]')) {
             e.preventDefault();
             restoreHomePage();
