@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <ul>
         <li>For extra fluffy pancakes, let the batter rest for 5-10 minutes before cooking.</li>
         <li>Add a handful of chocolate chips, blueberries, or sliced bananas to the batter for variations.</li>
+        <li></li>
                 </ol>
             </section>
         `,
@@ -68,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <ul>
         <li>Use day-old rice for the best texture. Freshly cooked rice tends to be too sticky.</li>
         <li>Adjust the soy sauce to your taste for saltiness.</li>
+        <li></li>
                 </ol>
             </section>
         `,
@@ -96,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li>Season with black pepper and salt. If the sauce is too thick, use the reserved pasta water to thin it out to your desired consistency.</li>
         <li>Toss the cooked pasta in the sauce until fully coated.</li>
         <li>Garnish with chopped parsley and extra Parmesan. Serve immediately!</li>
+        <li></li>
                 </ol>
             </section>
         `
